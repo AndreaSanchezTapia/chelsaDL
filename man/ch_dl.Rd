@@ -15,7 +15,7 @@ ch_dl(md, dest = NULL, skip_existing = TRUE, method = "curl", crop = NULL)
 \item{skip_existing}{Should files that are already present in the destination
 be ignored (logical).}
 
-\item{method}{Download method, passed to downloa.file (character).}
+\item{method}{Download method, passed to download.file (character).}
 
 \item{crop}{Spatial bounding box to crop each downloaded raster to (an extent
 object, or any spatial object with an extent).}
